@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+main{
+    height: 100vh;
+    background-color: rgb(130, 235, 235);
+    text-align: center;
+    display: flex;
+}
+.container{
+    width: 450px;
+    height: max-content;
+    background-color: white;
+    margin: auto;
+    margin-top: 12%;
+    border-radius: 8px;
+    padding: 2%;
+    box-shadow: 1px 1px 10px rgb(7, 115, 125);
+}
+form{
+    width: 90%;
+    padding: 5% 2%;
+}
+.heading{
+    margin-bottom: 4%;
+    font-weight: 800;
+    font-size: 2em;
+    color: cornflowerblue;
+}
+.input_box{
+    width: 280px;
+    padding: 1.8%;
+    border-radius: 5px;
+    background-color: rgb(248, 255, 253);
+    border: 1.5px solid lightgray;
+}
+.btn{
+    padding: 1.5% 4%;
+    border-radius: 10px;
+    color: rgb(239, 249, 253);
+    font-weight: bold;
+    background-color: rgb(9, 173, 243);
+    border: 2px solid rgb(9, 173, 243);
+    margin-bottom: 5%;
+    cursor: pointer;
+}
+.done{
+    text-decoration: line-through;
+}
+li button{
+    margin-left: 4%;
+    padding: 1% 1.5%;
+}
